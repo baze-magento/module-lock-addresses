@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="customer">
+            <group id="address">
+                <field id="address_book_access" translate="label comment" type="select" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Address Book visibility</label>
+                    <comment>Whether users can see their address book.</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="address_book_editable" translate="label comment" type="select" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Address Book editing</label>
+                    <comment>Whether users can modify their address book.</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
