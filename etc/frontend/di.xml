@@ -3,7 +3,7 @@
     <type name="Magento\Checkout\Model\CompositeConfigProvider">
         <arguments>
             <argument name="configProviders" xsi:type="array">
-                <item name="baze_lockaddresses_addressbookconfigprovider" xsi:type="object">Baze\LockAddresses\Model\AddressBookConfigProvider</item>
+                <item name="baze_lockaddresses_addressbookconfigprovider" xsi:type="object">Baze\LockAddresses\Model\Customer\AddressBookConfigProvider</item>
             </argument>
         </arguments>
     </type>
