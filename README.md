@@ -1,6 +1,5 @@
-# magento-lock-addresses
+# Lock Addresses
 Locks and/or hides the users' Address Book.
-
 
 ## Architecture
 **Modules that require theme changes** (This Repo) <- Core theme -> Child "skin" themes
